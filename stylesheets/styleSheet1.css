@@ -6,7 +6,7 @@ body {
 	background: #FFF;
 	/*text-align: center;*/
 	color: #000;
-	font-family: Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif; 
+	font-family: Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif;
 	}
 
 html	{
@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 	}
 p{
 	color: #000;
-	font-family: Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif; 
+	font-family: Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif;
 	text-transform:lowercase;
 	font-weight:lighter;
 	}
@@ -39,8 +39,8 @@ p{
 	background: #FFF;
 	color: 	#999;
 	text-align:center;
-	word-spacing:176px;
-	}	
+	/*word-spacing:176px;*/
+	}
 .title{
 	text-align: center;
 	font-weight:lighter
@@ -48,23 +48,23 @@ p{
 
 img.resImage {
 	border:0px solid #000;
-    float: right; 
+    float: right;
     margin: 0 10px 10px 10px;
 	width: 400px;
 	height: 291px;		  /* height=.7275*width */
 	}
-	
+
 .mcc{
 	text-align: center;
 	font-size: small;
-	} 	
+	}
 .center{
 	text-align:center;
 	}
 
 .light{
 	font-weight:lighter;
-}	
+}
 
 /************************* ID's *************************/
 
@@ -85,7 +85,7 @@ background-color: #FFF;
 }
 
 /* make sure left+right+margins=rapper.width
-             500 + 240 +(10+10)=760   
+             500 + 240 +(10+10)=760
 
 */
 #left	{
@@ -100,7 +100,7 @@ background-color: #FFF;
 	width:140px;
 	margin-left: 10px;
 	background:#FFF;
-	
+
 	}
 
 #footer {
@@ -171,7 +171,7 @@ a.nav:hover {
 
 a.nav:active {
 	color:#000;
-	}  /* selected link */	
+	}  /* selected link */
 
 
 /* now for those in navbar*/
@@ -189,9 +189,9 @@ a.ti:hover {
 
 a.ti:active {
 	color:#000;
-	}  /* selected link */	
+	}  /* selected link */
 
-	
+
 /* now for those in title-blocks*/
 
 a.tb:link {
@@ -207,6 +207,4 @@ a.tb:hover {
 
 a.tb:active {
 	color:#FFFF00;
-	}  /* selected link */	
-
-	
+	}  /* selected link */
