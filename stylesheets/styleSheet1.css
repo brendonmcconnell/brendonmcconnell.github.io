@@ -49,7 +49,7 @@ p{
 img.resImage {
 	border:0px solid #000;
     float: right;
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 0px 10px;
 	width: 400px;
 	height: 250px;		  /* height=.7275*width */
 	}
