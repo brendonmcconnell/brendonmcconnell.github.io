@@ -112,7 +112,7 @@ p{
 }
 /*collapse to a single columns when small screen -- bye-bye beautiful 2-column design*/
 /*https://www.w3schools.com/html/html_responsive.asp*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
   }
