@@ -48,6 +48,7 @@ body {
 html	{
 	height: 100%;
 	margin-bottom: 0.01em;
+  font-size: 16px;
 	}
 
 h1,h2,h3,h4,h5,h6{
@@ -78,7 +79,7 @@ p{
 	border-bottom: 1px solid yellow;*/
 	}
 .pubs{
-  font-size:1.25vw;
+  /*font-size:1.25vw;*/
 }
 
 .navBlock{
@@ -97,7 +98,7 @@ p{
   text-align: center;
   font-family:'spitzenklasse', Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif;
   word-spacing: 70%;
-  font-size:4vw;
+  font-size:5vw;
 }
 
 /* use flex box for columns: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex */
@@ -282,4 +283,24 @@ a.tb:active {
     .row {
       flex-direction: column;
     }
+  }
+/*https://css-tricks.com/snippets/css/fluid-typography/*/
+
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+    }
+    .intro{
+      font-size: calc(5vw -2 * ((100vw - 320px) / 680));
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 20px;
+    }
+    .intro{
+      font-size:3vw;
+    }
+
   }
