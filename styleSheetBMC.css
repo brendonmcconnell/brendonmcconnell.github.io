@@ -1,4 +1,6 @@
-/* css written by B McConnell on 25-11-2010. Stylesheet inspired almost entirely by the look of http://thesecondpass.com/ - great looking website. Thanks to Timbo for suggesting the big new changes inc. responsive design, and using flex to do the columns */
+/* css written by B McConnell on 25-11-2010. Stylesheet inspired almost entirely by the look of http://thesecondpass.com/ - great looking website.
+Heavily revised 06-11-2022. Thanks to Timbo for suggesting the big new changes inc. responsive design, and using flex to do the columns */
+
 /*!
  * Web Fonts from Fontspring.com
  *
@@ -74,7 +76,7 @@ p{
 .titleBlock{
 	background: #000;
 	color: 	#FFFF00;
-  font-size:1.5vw;
+  font-size: 20px;
 	/*font-weight:lighter
 	border-bottom: 1px solid yellow;*/
 	}
@@ -91,14 +93,14 @@ p{
 .title{
 	text-align: center;
 	font-weight:lighter;
-  font-size:2.5vw;
+  font-size: 26px;
 	}
 
 .intro{
   text-align: center;
   font-family:'spitzenklasse', Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif;
   word-spacing: 70%;
-  font-size:5vw;
+  font-size: 48px;
 }
 
 /* use flex box for columns: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex */
@@ -290,9 +292,19 @@ a.tb:active {
     html {
       font-size: calc(16px + 4 * ((100vw - 320px) / 680));
     }
-    .intro{
-      font-size: calc(5vw -2 * ((100vw - 320px) / 680));
+    .intro {
+      font-size: calc(48px + 4 * ((100vw - 320px) / 680));
     }
+    .titleBlock {
+      font-size: calc(20px + 4 * ((100vw - 320px) / 680));
+    }
+    .title {
+      font-size: calc(24px + 4 * ((100vw - 320px) / 680));
+    }
+    html {
+      font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+    }
+
   }
 
   @media screen and (min-width: 1000px) {
@@ -300,7 +312,18 @@ a.tb:active {
       font-size: 20px;
     }
     .intro{
-      font-size:3vw;
+      font-size: 52px;
     }
+    .titleBlock{
+      font-size: 24px;
+  	}
+    .title{
+      font-size: 28px;
+  	}
+  }
 
+  @media screen and (min-width: 1600px) {
+    #rapper {
+    	width: 1120px;
+  	}
   }
