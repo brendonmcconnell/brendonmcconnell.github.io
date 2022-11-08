@@ -50,7 +50,7 @@ body {
 html	{
 	height: 100%;
 	margin-bottom: 0.01em;
-  font-size: 16px;
+  font-size: 12px;
 	}
 
 h1,h2,h3,h4,h5,h6{
@@ -76,7 +76,7 @@ p{
 .titleBlock{
 	background: #000;
 	color: 	#FFFF00;
-  font-size: 20px;
+  font-size: 16px;
 	/*font-weight:lighter
 	border-bottom: 1px solid yellow;*/
 	}
@@ -93,14 +93,14 @@ p{
 .title{
 	text-align: center;
 	font-weight:lighter;
-  font-size: 26px;
+  font-size: 20px;
 	}
 
 .intro{
   text-align: center;
   font-family:'spitzenklasse', Avenir, Frutiger, Helvetica, "Helvetica Neue", Arial, Sans-Serif;
   word-spacing: 70%;
-  font-size: 48px;
+  font-size: 36px;
 }
 
 /* use flex box for columns: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex */
@@ -289,16 +289,16 @@ a.tb:active {
 
   @media screen and (min-width: 320px) {
     html {
-      font-size: calc(16px + 4 * ((100vw - 320px) / 680));
+      font-size: calc(12px + 8 * ((100vw - 320px) / 680));
     }
     .intro {
-      font-size: calc(48px + 4 * ((100vw - 320px) / 680));
+      font-size: calc(36px + 16 * ((100vw - 320px) / 680));
     }
     .titleBlock {
-      font-size: calc(20px + 4 * ((100vw - 320px) / 680));
+      font-size: calc(16px + 8 * ((100vw - 320px) / 680));
     }
     .title {
-      font-size: calc(24px + 4 * ((100vw - 320px) / 680));
+      font-size: calc(20px + 8 * ((100vw - 320px) / 680));
     }
     html {
       font-size: calc(16px + 4 * ((100vw - 320px) / 680));
