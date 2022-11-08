@@ -130,7 +130,7 @@ p{
 #rapper {
 	background-color: #FFF;
 	padding: 0px 0px 0px 0px;
-	width: 70%;
+	width: 300px;
 	margin: 0 auto;
 	text-align: left;
 	}
@@ -306,6 +306,12 @@ a.tb:active {
 
   }
 
+/*300/.7 = 428.57*/
+@media screen and (min-width: 429px) {
+  #rapper {
+  	width: 70%;
+  	}
+}
   @media screen and (min-width: 1000px) {
     html {
       font-size: 20px;
