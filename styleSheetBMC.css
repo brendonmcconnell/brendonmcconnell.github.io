@@ -105,7 +105,7 @@ p{
   font-weight: 500;  /* Medium weight */
   line-height: 1.3;
   margin-bottom: 10px;  
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 /* use flex box for columns: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex */
